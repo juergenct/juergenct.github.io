@@ -1,7 +1,7 @@
 ---
-title: "/Users/juergenthiesen/Documents/GitHub/juergenct.github.io"
+title: "Hello World"
 ---
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Stay tuned for some amazing content!
