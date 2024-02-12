@@ -1,1 +1,59 @@
 /* css styles */
+/* Set the font - you might need to import a custom font that matches the one used on the website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Replace with the actual font used */
+    background-color: #004b23; /* dark green background */
+    color: #ffffff; /* white text color */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the content */
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px; /* Maximum width of the content area */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    padding-left: 5%; /* Padding from the left */
+}
+
+.header h1 {
+    font-size: 4rem; /* Large font size for the main heading */
+    margin-bottom: 0.5em; /* Space below the main heading */
+}
+
+.header p {
+    font-size: 1.25rem; /* Size for the supporting text */
+    max-width: 600px; /* Maximum width of the paragraph */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .header h1 {
+        font-size: 3rem;
+    }
+    .header p {
+        font-size: 1rem;
+    }
+}
