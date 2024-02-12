@@ -7,13 +7,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: About
+        href: about.qmd
 
 format:
   html:
-    theme: cosmo
     css: styles.css
-    toc: true
-
-
-
