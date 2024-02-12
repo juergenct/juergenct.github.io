@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "/Users/juergenthiesen/Documents/GitHub/juergenct.github.io"
+  title: "Oh wow - such beautiful website"
   navbar:
     left:
       - href: index.qmd
