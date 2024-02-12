@@ -10,7 +10,7 @@
 body {
     /* Use a stack of common system fonts */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background-color: #004b23; /* dark green background */
+    background-color: #013220; /* dark green background */
     color: #ffffff; /* white text color */
     line-height: 1.6; /* Adjust line height for readability */
 }
