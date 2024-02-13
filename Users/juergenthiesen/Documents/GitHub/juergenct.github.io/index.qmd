@@ -4,4 +4,9 @@ title: "Hello World"
 
 This is a Quarto website.
 
+![Green World](assets/images/green_world.png)
+
 Stay tuned for some amazing content!
+
+![Green World SVG](assets/images/green_world.svg)
+
