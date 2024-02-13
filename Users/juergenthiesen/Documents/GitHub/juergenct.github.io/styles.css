@@ -10,8 +10,8 @@
 body {
     /* Use a stack of common system fonts */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background-color: #013220; /* dark green background */
-    color: #ffffff; /* white text color */
+    background-color: #051F20; /* dark green background from the palette */
+    color: #E8E6D9; /* light text color from the palette */
     line-height: 1.6; /* Adjust line height for readability */
 }
 
@@ -20,6 +20,7 @@ body {
     width: 80%;
     margin: auto;
     max-width: 1200px; /* Maximum width of the content area */
+    color: #D1F1DE; /* Lighter green text for content from the palette */
 }
 
 .header {
@@ -29,16 +30,19 @@ body {
     justify-content: center;
     height: 100vh; /* Full height of the viewport */
     padding-left: 5%; /* Padding from the left */
+    background-color: #0B2B26; /* Slightly lighter green background for the header from the palette */
 }
 
 .header h1 {
     font-size: 4rem; /* Large font size for the main heading */
     margin-bottom: 0.5em; /* Space below the main heading */
+    color: #235347; /* Different shade of green for the heading text from the palette */
 }
 
 .header p {
     font-size: 1.25rem; /* Size for the supporting text */
     max-width: 600px; /* Maximum width of the paragraph */
+    color: #163832; /* Another shade of green for the paragraph text from the palette */
 }
 
 /* Mobile responsiveness */
@@ -53,4 +57,31 @@ body {
     .header p {
         font-size: 1rem;
     }
+}
+
+/* NAVIGATION BAR ADJUSTMENT  */
+/* Custom styles for the navbar */
+.navbar {
+    background-color: #051F20; /* Darkest color for the navbar background */
+}
+
+/* Adjusting link colors within the navbar */
+.navbar a, .navbar a:visited {
+    color: #D1F1DE; /* Lightest green for the link text */
+}
+
+/* Adjusting the navbar color on hover */
+.navbar a:hover {
+    background-color: #235347; /* Medium green for the hover background */
+}
+
+/* Style for the active or current page link in the navbar */
+.navbar a.active {
+    background-color: #163832; /* Slightly different green for the active link background */
+}
+
+/* Styles for the main content area */
+.content {
+    background-color: #0B2B26; /* A darker green for the main content background */
+    color: #E8E6D9; /* Light color for the text for better readability */
 }
