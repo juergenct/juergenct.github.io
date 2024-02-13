@@ -7,10 +7,24 @@
     "text": "About this site"
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "This site will track my own research endeavour."
+  },
+  {
+    "objectID": "projekt-edv-tek.html",
+    "href": "projekt-edv-tek.html",
+    "title": "Projekt EDV-TEK",
+    "section": "",
+    "text": "This site will track the progress of the project EDV-TEK, funded by the BMBF and European Union."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello World",
     "section": "",
-    "text": "This is a Quarto website.\n\n\n\nGreen World\n\n\nStay tuned for some amazing content!\n\n\n\nGreen World SVG"
+    "text": "This is a Quarto website.\n\nStay tuned for some amazing content!"
   }
 ]

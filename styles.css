@@ -64,10 +64,10 @@ body {
     }
 }
 
-/* NAVIGATION BAR ADJUSTMENT  */
+/* NAVIGATION BAR ADJUSTMENT */
 /* Custom styles for the navbar */
 .navbar {
-    background-color: #051F20; /* Darkest color for the navbar background */
+    background-color: #024731; /* Darker green for the navbar background */
 }
 
 /* Adjusting link colors within the navbar */
@@ -87,6 +87,6 @@ body {
 
 /* Styles for the main content area */
 .content {
-    background-color: #0B2B26; /* A darker green for the main content background */
+    background-color: #0B3D33; /* A lighter green for the main content background */
     color: #E8E6D9; /* Light color for the text for better readability */
 }
