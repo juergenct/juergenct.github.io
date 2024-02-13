@@ -9,6 +9,10 @@ website:
         text: Home
       - text: About
         href: about.qmd
+      - text: Project EDV-Tek
+        href: projekt-edv-tek.qmd
+      - text: Research
+        href: research.qmd
 
 format:
   html:
