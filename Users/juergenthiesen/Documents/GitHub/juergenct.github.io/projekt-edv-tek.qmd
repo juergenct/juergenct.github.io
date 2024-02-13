@@ -1,0 +1,5 @@
+---
+title: "Projekt EDV-TEK"
+---
+
+This site will track the progress of the project EDV-TEK, funded by the BMBF and European Union.

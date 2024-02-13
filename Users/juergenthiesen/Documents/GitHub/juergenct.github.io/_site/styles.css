@@ -15,23 +15,28 @@ body {
     line-height: 1.6; /* Adjust line height for readability */
 }
 
-/* Container for the content */
+/* Ensure the container fills the entire width of the viewport */
 .container {
-    width: 80%;
-    margin: auto;
-    max-width: 1200px; /* Maximum width of the content area */
-    color: #D1F1DE; /* Lighter green text for content from the palette */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    margin: 0; /* Remove any margin to ensure it stretches to the full width */
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    height: 100vh; /* Full height of the viewport */
-    padding-left: 5%; /* Padding from the left */
-    background-color: #0B2B26; /* Slightly lighter green background for the header from the palette */
+/* If there's specific padding you want to maintain inside the container, set it here */
+.container-padding {
+    padding: 0 20px; /* Example padding; adjust as needed */
 }
+
+/* Ensure the header also fills the entire width if it's a separate element */
+.header {
+    width: 100vw;
+    margin: 0;
+}
+
+/* Adjust the header's internal spacing without affecting its full width */
+.header-content {
+    padding: 0 20px;
+}
+
 
 .header h1 {
     font-size: 4rem; /* Large font size for the main heading */
